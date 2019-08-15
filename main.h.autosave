@@ -1,0 +1,13 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdio.h>
+
+int connectIpify(void);
+int queryIpify(int sockfd, char *addr, size_t len);
+int disconnectIpify(int sockfd);
+
+int fetchIp(char *addr, size_t len);
+
+
+#endif // MAIN_H
