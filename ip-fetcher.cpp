@@ -1,3 +1,5 @@
+Copyright (c) 2015-2016  Joachim Nilsson <troglobit@gmail.com>
+
 #include "ip-fetcher.h"
 #include <iostream>
 #include <sstream>
